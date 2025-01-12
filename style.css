@@ -1,28 +1,20 @@
-
-#navbar{
-    background-color: black;
-    color: aliceblue;
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
     height: 60px;
+    background-color: #0f1111;
+    color: white;
 }
-button{
-    background-color: orange;
-    color: aliceblue;
+.navlogo{
+    height: 50px;
+    width: 100px;
 }
-
-#logo{
-    color: orange;
-    text-decoration: none;
-    font-size: 25px;
-}
-a{
-    margin-right: 200px;
-    color: aliceblue;
-    text-decoration: none;
-}
-footer{
-    background-color: black;
-    color: aliceblue;
-    text-align: center;
-    height: 70px;
-    margin-top: 600px;
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
 }
