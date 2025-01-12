@@ -18,3 +18,9 @@
     height: 50px;
     width: 100%;
 }
+.border{
+    border: 2px solid #0f1111;
+}
+.border:hover{
+    border: 2px solid white;
+}
