@@ -80,6 +80,13 @@
     border-bottom-right-radius : 4px;
     color: #0f1111;
 }
+.language{
+    text-align: center;
+    border: none;
+}
+.language i{
+    font-size: 30px;
+}
 .navfirst{
     width: 70px;
     font-size: 12px;
@@ -98,4 +105,52 @@
 .navcart i{
     font-size: 30px;
 
+}
+/* panels */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-ops p:hover{
+    border: 1.5px solid white;
+}
+.panel-deals{
+    font-size: 0.9;
+    font-weight: 700;
+}
+.panel-deals:hover{
+    border: 1.5px solid white;
+}
+.panel-all:hover{
+    border: 1.5px solid white;
+
+}
+/* hero section */
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 600px;
+    background-size: cover;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-msg a{
+    color: #007185;
 }
