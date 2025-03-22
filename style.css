@@ -140,8 +140,11 @@
 /* hero section */
 .hero-section{
     background-image: url(hero_image.jpg);
-    height: 600px;
+    height: 350px;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .hero-msg{
     background-color: white;
@@ -150,7 +153,38 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
 }
 .hero-msg a{
+    color: #007185;
+}
+/* shop section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem ;
+    margin-right: 1rem ;
+}
+.box-content p{
     color: #007185;
 }
